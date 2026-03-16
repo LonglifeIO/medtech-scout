@@ -45,17 +45,17 @@ python medtech_scout.py --live --days 60 --limit 50
 ## Why This Matters for Zapyrus
 
 Zapyrus currently tracks press releases, funding, clinical milestones, M&A,
-conferences, and device approvals. But the raw FDA submission databases contain
-**earlier and more granular signals** than press coverage:
+conferences, and device approvals. But the raw FDA submission databases can
+offer signals that go deeper than press coverage:
 
-- Submission dates reveal regulatory intent months before clearance
-- Predicate device references map competitive positioning
-- Clearance types (Traditional / Special / De Novo) indicate novelty
+- Clearance types (Traditional / Special / De Novo) indicate device novelty
 - Expedited review flags signal clinical urgency
-- Third-party review flags suggest smaller companies needing external partners
+- Third-party review flags can indicate companies using external review pathways
+- Submission-to-decision timelines hint at regulatory complexity
+- Future enhancement: predicate device extraction from summary PDFs could map competitive positioning
 
 Combined with LLM classification, this turns a regulatory database into a
-**predictive sales intelligence feed** — exactly what Zapyrus does for other
+predictive sales intelligence feed — exactly what Zapyrus does for other
 data sources.
 
 ## Data Source Gap Summary
